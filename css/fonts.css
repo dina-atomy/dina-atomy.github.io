@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'FontAwesome-Solid';
+    src: url('../font-awesome-4.7.0/fonts/fa-solid-900.eot');
+    src: url('../font-awesome-4.7.0/fonts/fa-solid-900.eot') format('embedded-opentype'), url('../font-awesome-4.7.0/fonts/fa-solid-900.woff') format('woff'), url('../font-awesome-4.7.0/fonts/fa-solid-900.ttf') format('truetype'), url('../font-awesome-4.7.0/fonts/fa-solid-900.svg') format('svg');
+}
