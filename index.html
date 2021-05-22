@@ -36,13 +36,16 @@
 РАБОТА НА ДОМУ без опыта и вложений в Интернет!
 <br> Работайте всего 2-3 часа в день, в удобное для Вас время.
 </p>
-<a href='https://wa.me/996555233270' target='_blank' data-aos="fade" data-aos-easing="linear" data-aos-duration="1000"  class="btn my-4 font-weight-bold atlas-cta cta-white aos-init aos-animate">
+<a href='https://wa.me/996555233270' target='_blank' class="btn my-4 font-weight-bold atlas-cta cta-white">
 	<i class= "fa fa-whatsapp"></i> Написать
 </a>
+<div>
+<a href="#video" class="arrow"><span></span></a>
+</div>
 </div>
 </div>
 
-<div class="container my-5 pt-2 text-center">
+<div class="container my-5 pt-2 text-center" id="video">
 <iframe id="youtube-4420" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="Player for Работа на дому и здоровье семьи с компанией Атоми." width="640" height="360" src="https://www.youtube.com/embed/tl7s4WPS5BM?autoplay=0&amp;controls=0&amp;disablekb=1&amp;playsinline=1&amp;cc_load_policy=0&amp;cc_lang_pref=auto&amp;widget_referrer=https%3A%2F%2Fatomilux.ru%2F%3Ffrom%3Dvekref32683u1060477&amp;rel=0&amp;showinfo=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;customControls=true&amp;noCookie=false&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fatomilux.ru&amp;widgetid=1"></iframe>
 </div>
 
@@ -406,11 +409,19 @@ Copyright © 2021
 </div>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6bf558652dc63af7a3a9da10-|49" defer=""></script>
 <script src="js/aos.js" type="text/javascript"></script>
 <script type="text/javascript">
       AOS.init({
       });
+	  
+	  $(function() {
+		  $('.arrow').on('click', function(e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+		  });
+		});
 </script>
 </body>
 </html>
